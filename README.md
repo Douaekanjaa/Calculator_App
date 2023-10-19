@@ -11,7 +11,6 @@ This is a basic calculator application developed using React. It allows users to
 - Addition, subtraction, multiplication, and division operations.
 - Percentage calculation.
 - Clear button to reset the input.
-- Responsive design for various screen sizes.
 
 ## Technologies Used
 
