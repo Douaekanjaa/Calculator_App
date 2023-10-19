@@ -18,3 +18,6 @@ This is a basic calculator application developed using React. It allows users to
 - React
 - JavaScript
 - HTML/CSS
+
+## Author
+Kanjaa Douae
