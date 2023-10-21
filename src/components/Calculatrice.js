@@ -24,9 +24,9 @@ export default function Calculatrice() {
     try{
       setres(prevRes => {
         if (typeof prevRes === 'string' && prevRes.length > 0) {
-          return prevRes.slice(0, -1); // Remove the last character
+          return prevRes.slice(0, -1);
         }
-        return prevRes; // Return as is if not a string or empty
+        return prevRes;
       });
     }
     catch (error){

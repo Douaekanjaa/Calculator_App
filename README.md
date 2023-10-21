@@ -1,16 +1,20 @@
 # Calculator App
 
-A simple calculator web application built using React.
+A modern and user-friendly web-based calculator application built using React.
+
+![Calculator App Screenshot](screenshot.png)
 
 ## Overview
 
-This is a basic calculator application developed using React. It allows users to perform basic arithmetic operations, such as addition, subtraction, multiplication, and division, and also includes a percentage calculator.
+The Calculator App is a user-friendly web application developed with React. It provides a sleek and intuitive interface for performing basic arithmetic operations and includes additional features like percentage calculations, clear/reset functionality, and a backspace button.
 
 ## Features
 
-- Addition, subtraction, multiplication, and division operations.
+- Basic arithmetic operations: addition, subtraction, multiplication, and division.
 - Percentage calculation.
 - Clear button to reset the input.
+- Backspace button (←) to delete the last character.
+- Stylish and modern user interface.
 
 ## Technologies Used
 
@@ -20,4 +24,17 @@ This is a basic calculator application developed using React. It allows users to
 - Bootstrap
 
 ## Author
-Kanjaa Douae
+
+- Kanjaa Douae
+
+## How to Use
+
+1. Clone this repository to your local machine.
+2. In the project directory, run `npm install` to install the necessary dependencies.
+3. Run `npm start` to start the development server.
+4. Open your web browser and visit `http://localhost:3000` to use the Calculator App.
+
+Enjoy fast and efficient calculations with our user-friendly Calculator App!
+
+---
+
