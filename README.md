@@ -1,4 +1,4 @@
-# Calculator App 🧮
+# Calculator App <img src="screenshot.png" alt="Calculator App Screenshot" width="10" height="80">
 
 A modern and user-friendly web-based calculator application built using React. 💻
 
