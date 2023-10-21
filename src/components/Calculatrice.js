@@ -18,8 +18,6 @@ export default function Calculatrice() {
     }
   };
 
- 
-  
   const deleteLastCharacter = () => {
     try{
       setres(prevRes => {
@@ -38,13 +36,13 @@ export default function Calculatrice() {
       setres("");
    };
 
-  
   return (
     <div>
-     <h1 style={{ color: "#9448F5",fontSize: "4em", fontWeight: "900", textShadow: "3px 3px 5px rgba(0, 0, 0, 0.3)", fontFamily: "cursive",}} className="text-center mt-3 mb-5">
+      <h1 style={{ color: "#9448F5",fontSize: "4em", fontWeight: "900", textShadow: "3px 3px 5px rgba(0, 0, 0, 0.3)", fontFamily: "cursive",}} className="text-center mt-3 mb-5">
         Calculator
       </h1>
       <div className="container-fluid mb-5 shadow w-25 justify-content-center rounded py-4 px-1" style={{backgroundColor:"#9448F5"}}>
+        
         <div className="row  mx-4   justify-content-center  mb-3 ">
           <input type="text" value={res} className="col-9 px-4 py-2" style={{backgroundColor: "#96ecd4e2",border:"4px solid #277088de"}} disabled />
           <button onClick={clear} className="col-2 mx-1 p-3 btn shadow">C</button>
@@ -63,7 +61,7 @@ export default function Calculatrice() {
           <button value={"8"} onClick={(e)=>{setres(res + e.target.value)}}  className="col-2 mx-1 p-3 btn shadow">8</button>
           <button value={"9"} onClick={(e)=>{setres(res + e.target.value)}}  className="col-2 mx-1 p-3 btn shadow">9</button>
           <button value={"-"} onClick={(e)=>{setres(res + e.target.value)}}  className="col-2 mx-1 p-3 btn shadow" >-</button>
-          </div>
+        </div>
 
         <div className="row my-3 justify-content-center">
           <button value={"4"} onClick={(e)=>{setres(res + e.target.value)}}  className="col-2 mx-1 p-3 btn shadow" >4</button>
@@ -77,18 +75,16 @@ export default function Calculatrice() {
           <button value={"1"} onClick={(e)=>{setres(res + e.target.value)}}  className="col-2 mx-1 p-3 btn shadow">1</button>
           <button value={"2"} onClick={(e)=>{setres(res + e.target.value)}}  className="col-2 mx-1 p-3 btn shadow">2</button>
           <button value={"3"} onClick={(e)=>{setres(res + e.target.value)}}  className="col-2 mx-1 p-3 btn shadow">3</button>
-          <button value={"("}  onClick={(e)=>{setres(res + e.target.value)}} className="col-2 mx-1 p-3 btn shadow" > ( </button>
-
-          
+          <button value={"("}  onClick={(e)=>{setres(res + e.target.value)}} className="col-2 mx-1 p-3 btn shadow" > ( </button>         
         </div>
+
         <div className="row my-3 justify-content-center">
           <button value={"."} onClick={(e)=>{setres(res + e.target.value)}}  className="col-2 mx-1 p-3 btn shadow">.</button>
           <button value={"0"} onClick={(e)=>{setres(res + e.target.value)}}  className="col-2 mx-1 p-3 btn shadow">0</button>
           <button value={"+"} onClick={(e)=>{setres(res + e.target.value)}}  className="col-2 mx-1 p-3 btn shadow">+</button>
           <button  onClick={egal} className="col-2 mx-1 btn shadow" style={{ fontSize: "27px", color: "#FF7FAD" }}>=</button>
-
-                 
         </div>
+
       </div>
     </div>
   );
