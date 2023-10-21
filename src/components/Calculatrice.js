@@ -9,12 +9,12 @@ export default function Calculatrice() {
     try {
       const result = eval(res);
       if (!isFinite(result)) {
-        setres("Error");
+        setres("Error !");
       } else {
         setres(result);
       }
     } catch (error) {
-      setres("Error");
+      setres("Error !");
     }
   };
 
