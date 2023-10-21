@@ -1,4 +1,4 @@
-# Calculator App <img src="screenshot.png" alt="Calculator App Screenshot" width="10" height="80">
+# Calculator App <img src="C:\Users\hp\OneDrive\Documents\GitHub\Calculator_App\public\logo1.png" alt="Calculator App Screenshot" width="10" height="80">
 
 A modern and user-friendly web-based calculator application built using React. 💻
 
