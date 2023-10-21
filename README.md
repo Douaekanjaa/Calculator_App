@@ -1,4 +1,4 @@
-# Calculator App <img src="./public/logo1.png" alt="logo" width="30" height="40">
+# Calculator App <img src="./public/logo1.png" alt="logo" width="34" height="38">
 
 A modern and user-friendly web-based calculator application built using React. 💻
 
