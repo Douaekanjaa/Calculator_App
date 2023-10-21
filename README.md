@@ -14,7 +14,6 @@ The Calculator App is a user-friendly web application developed with React. It p
 - Percentage calculation.
 - Clear button to reset the input.
 - Backspace button (←) to delete the last character.
-- Responsive design for various screen sizes.
 - Stylish and modern user interface.
 
 ## Technologies Used 💡
