@@ -2,7 +2,7 @@
 
 A modern and user-friendly web-based calculator application built using React. 💻
 
-![Calculator App Screenshot](screenshot.png)
+<img src="screenshot.png" alt="Calculator App Screenshot" width="300" height="200">
 
 ## Overview
 
