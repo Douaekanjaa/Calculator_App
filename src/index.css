@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #9d4edd, rgba(0, 0, 0, 0.943));
 }
 
 code {
@@ -32,4 +33,5 @@ code {
 }
 
 .btn:hover {
-  transform: scale(0.9);   }
+  transform: scale(0.9);
+}
